@@ -1,0 +1,32 @@
+$text-color:#333333;
+$text-gray:#666666;
+$text-vice:#999999;
+$theme-color:#d64b4b;
+$white-color:#ffffff;
+$bg-color:#f5f5f5;;
+$border-color:#ececec;
+
+
+body{
+  font-size: 14px;
+  color: $text-color;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+input textarea{
+  outline: none;
+  &:focus,&:active{
+    outline: none;
+    border:none;
+  }
+}
+button{
+  border: none;
+  outline: none;
+}
+
+
+

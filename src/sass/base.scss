@@ -29,4 +29,24 @@ button{
 }
 
 
+@mixin flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin flex-aside{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin avatar-circle ($size:60px){
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  overflow: hidden;
+  img{
+    width: 100%;
+  }
+}
+
 

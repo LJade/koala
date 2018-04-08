@@ -1,5 +1,5 @@
 <template>
-  <div id="common-header">
+  <div class="common-header">
     <div class="company">
       <div class="logo">
         <img src="/static/images/logo.png" alt="">
@@ -34,7 +34,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   @import "../sass/base";
-#common-header{
+.common-header{
   width: 100%;
   min-width: 1200px;
   height: 60px;

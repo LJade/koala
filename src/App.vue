@@ -12,5 +12,7 @@ export default {
 
 <style>
 #app {
+  min-width: 1200px;
+  margin: 0 auto;
 }
 </style>

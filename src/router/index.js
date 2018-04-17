@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Login from '../views/login/login.vue'
 import Home from '../views/home/home.vue'
 import Create from '../views/create/create.vue'
+import List from '../views/list/list.vue'
 
 Vue.use(Router)
 
@@ -26,6 +27,11 @@ export default new Router({
       path:'/create',
       name:'create',
       component:Create
+    },
+    {
+      path:'/list',
+      name:'list',
+      component:List
     }
   ]
 })

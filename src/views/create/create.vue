@@ -8,12 +8,12 @@
       <el-form-item label="名称:">
         <el-input style="width: 350px" v-model="form.name"></el-input>
       </el-form-item>
-      <!--<el-form-item label="活动区域:">-->
-        <!--<el-select v-model="form.region" placeholder="请选择活动区域">-->
-          <!--<el-option label="区域一" value="shanghai"></el-option>-->
-          <!--<el-option label="区域二" value="beijing"></el-option>-->
-        <!--</el-select>-->
-      <!--</el-form-item>-->
+      <el-form-item label="店铺:">
+        <el-select v-model="form.region" placeholder="请选择店铺">
+          <el-option label="斑斓考拉" value="ck"></el-option>
+          <el-option label="双朋服饰" value="sp"></el-option>
+        </el-select>
+      </el-form-item>
       <el-form-item label="入库时间:">
         <el-col :span="12">
           <el-date-picker type="date" placeholder="选择日期" v-model="form.createTime" style="width: 350px"></el-date-picker>
@@ -30,6 +30,7 @@
               <el-input size="mini" label-width="80px" v-model="scope.row.color"></el-input>
             </template>
           </el-table-column>
+
           <el-table-column label="尺码" >
             <template slot-scope="scope">
               <div class="size-wrapper">
